@@ -147,24 +147,24 @@ int main(void)
 //	  clearNumberOnClock(counter++);
 //	  HAL_Delay(1000);
 
-//	  //Ex10:
-//	  RunningEx7();
-//	  if (s >= 60){
-//		  s = 0;
-//		  m++;
-//	  }
-//	  if (m >= 60){
-//		  m = 0;
-//		  h++;
-//	  }
-//	  if (h >= 24){
-//	  	  h = 0;
-//	  }
-//	  setNumberOnClock(s/5);
-//	  setNumberOnClock(m/5);
-//	  setNumberOnClock(h);
-//	  s++;
-//	  HAL_Delay(1000);
+	  //Ex10:
+	  RunningEx7();
+	  if (s >= 60){
+		  s = 0;
+		  m++;
+	  }
+	  if (m >= 60){
+		  m = 0;
+		  h++;
+	  }
+	  if (h >= 24){
+	  	  h = 0;
+	  }
+	  setNumberOnClock(s/5);
+	  setNumberOnClock(m/5);
+	  setNumberOnClock(h);
+	  s++;
+	  HAL_Delay(1000);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

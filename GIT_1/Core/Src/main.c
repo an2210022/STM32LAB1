@@ -114,10 +114,10 @@ int main(void)
 //	  else cnt--;
 //	  HAL_Delay(1000);
 
-//	  //Ex4:
-//	  if(counter >= 10) counter = 0;
-//	  display7SEG(counter++);
-//	  HAL_Delay(1000);
+	  //Ex4:
+	  if(counter >= 10) counter = 0;
+	  display7SEG(counter++);
+	  HAL_Delay(1000);
 
 //	  //Ex5:
 //	  RunningEx5(cnt);

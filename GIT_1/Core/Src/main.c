@@ -137,10 +137,10 @@ int main(void)
 //	  RunningEx7();
 //	  HAL_Delay(1000);
 
-//	  //Ex8:
-//	  if(counter > 12) counter = 0;
-//	  setNumberOnClock(counter++);
-//	  HAL_Delay(1000);
+	  //Ex8:
+	  if(counter > 12) counter = 0;
+	  setNumberOnClock(counter++);
+	  HAL_Delay(1000);
 
 //	  //Ex9:
 //	  if(counter > 12) counter = 0;

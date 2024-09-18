@@ -102,11 +102,11 @@ int main(void)
 //	  //Ex1:
 //	  RunningEx1();
 
-//	  //Ex2:
-//	  RunningEx2(cnt);
-//	  if(cnt <= 0) cnt = 9;
-//	  else cnt--;
-//	  HAL_Delay(1000);
+	  //Ex2:
+	  RunningEx2(cnt);
+	  if(cnt <= 0) cnt = 9;
+	  else cnt--;
+	  HAL_Delay(1000);
 
 //	  //Ex3:
 //	  RunningEx3(cnt);

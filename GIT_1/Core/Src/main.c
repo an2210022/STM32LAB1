@@ -99,8 +99,8 @@ int main(void)
   int s = 55;
   while (1)
   {
-//	  //Ex1:
-//	  RunningEx1();
+	  //Ex1:
+	  RunningEx1();
 
 //	  //Ex2:
 //	  RunningEx2(cnt);

@@ -119,12 +119,12 @@ int main(void)
 //	  display7SEG(counter++);
 //	  HAL_Delay(1000);
 
-//	  //Ex5:
-//	  RunningEx5(cnt);
-//	  display7SEG(cnt);
-//	  if(cnt <= 0) cnt = 9;
-//	  else cnt--;
-//	  HAL_Delay(1000);
+	  //Ex5:
+	  RunningEx5(cnt);
+	  display7SEG(cnt);
+	  if(cnt <= 0) cnt = 9;
+	  else cnt--;
+	  HAL_Delay(1000);
 
 //	  //Ex6:
 //	  if (counter >= 12) counter = 0;

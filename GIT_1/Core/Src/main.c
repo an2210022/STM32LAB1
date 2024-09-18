@@ -135,7 +135,6 @@ int main(void)
 
 	  //EX7:
 	  RunningEx7();
-	  HAL_Delay(1000);
 
 //	  //Ex8:
 //	  if(counter > 12) counter = 0;

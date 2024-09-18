@@ -126,11 +126,11 @@ int main(void)
 //	  else cnt--;
 //	  HAL_Delay(1000);
 
-//	  //Ex6:
-//	  if (counter >= 12) counter = 0;
-//	  RunningEx6(counter);
-//	  counter++;
-//	  HAL_Delay(1000);
+	  //Ex6:
+	  if (counter >= 12) counter = 0;
+	  RunningEx6(counter);
+	  counter++;
+	  HAL_Delay(1000);
 
 
 //	  //EX7:
